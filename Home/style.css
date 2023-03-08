@@ -12,6 +12,7 @@ html{
 }
 
 button, input {
+    outline: none;
     border: none;
     overflow: visible;
     box-shadow: none;
@@ -29,11 +30,30 @@ a {
 
 .flex {
     display: flex;
+}
+
+.center {
     justify-content: space-around;
     align-items: center;
 }
 
+.height {
+    height: 70px;
+}
+
+.active {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
 .header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: white;
     height: 70px;
     width: 100%;
 }
@@ -53,6 +73,41 @@ a {
     height: 100%;
     font-size: 1.8rem;
     font-weight: 700;
+}
+
+.pst {
+    position: relative;
+}
+
+.product_list {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+}
+
+.product_list-img {
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 12.5%;
+    height: 280px;
+}
+
+.product_list-ao {
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+}
+
+.product_list-h {
+    margin-bottom: 12px;
+    font-size: 1.5rem;
 }
 
 .search {
@@ -82,4 +137,25 @@ a {
 
 .cursor {
     cursor: pointer;
+}
+
+.banner {
+    margin-top: 70px;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    display: flex;
+}
+
+.banner_next {
+    position: absolute;
+    top: 50%;
+}
+
+.banner_img {
+    width: 100%;
+}
+
+.imgb {
+    width: 12.5%;
 }
