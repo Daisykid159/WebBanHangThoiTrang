@@ -49,6 +49,14 @@ a {
     display: none;
 }
 
+.size_icon {
+    font-size: 2rem;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -230,12 +238,103 @@ a {
     display: block;
 }
 
-.size_icon {
-    font-size: 2rem;
+.header_log {
+    position: absolute;
+    top: 69px;
+    right: 5px;
+    width: 10%;
+    height: 120px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 26px 16px;
+    line-height: 3.5rem;
+    font-size: 1.8rem;
+    box-shadow: 0px 8px 20px 2px rgb(206, 206, 206);
+    display: none;
 }
 
-.cursor {
-    cursor: pointer;
+.header_log::after {
+    content: "";
+    position: absolute;
+    top: -28px;
+    right: 10px;
+    width: 80px;
+    height: 50px;
+}
+
+.header_user:hover .header_log {
+    display: block;
+}
+
+.log {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    bottom: 0;
+    width: 30%;
+    box-shadow: 0 0 5px 3px rgb(254, 107, 139);
+    background-color: white;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+.log_in {
+    z-index: 101;
+}
+
+.sign_up {
+    z-index: 102;
+}
+
+.logo_in-text {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 40px 0 60px;
+}
+
+.log_in-us {
+    width: 70%;
+    margin: 30px 15% 10px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 30px;
+    box-shadow: 0 0 5px 3px rgb(254, 107, 139);
+    overflow: hidden;
+}
+
+.log_user {
+    width: 80%;
+    height: 30px;
+    font-size: 2rem;
+    padding: 5px 15px;
+}
+
+.log_in-sumit {
+    height: 30px;
+    margin-top: 70px;
+    background-color: rgb(254, 107, 139);
+    text-align: center;
+    border: none;
+}
+
+.to_sign_up-text {
+    text-align: center;
+    font-size: 1.6rem;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+.log_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: rgb(129, 128, 128);
+}
+
+.btn_sumit{
+    padding: 4px;
+    background-color: rgb(254, 107, 139);
+    color: white;
+    font-size: 2rem;
 }
 
 .banner {
