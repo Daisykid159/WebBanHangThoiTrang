@@ -1,0 +1,47 @@
+.contailer {
+    width: 92%;
+    margin: 60px 0% 10px 8%;
+    overflow: hidden;
+}
+
+.contailer_text {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.contailer_item-text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.contailer_list {
+    width: 94%;
+    margin-top: 30px;
+}
+
+.contailer_item-img {
+    width: 88%;
+    margin-right: 24px;
+}
+
+.white {
+    color: white;
+}
+
+.contailer_kt {
+    width: 90%;
+    height: 2px;
+    margin-top: 30px;
+}
+
+.contailer_kt1 {
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    width: 35%;
+}
+
+.contailer_kt2 {
+    background-color: black;
+    height: 100%;
+    width: 30%;
+}

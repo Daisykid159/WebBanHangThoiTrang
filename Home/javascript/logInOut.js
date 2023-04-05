@@ -61,3 +61,5 @@ toSignUp.addEventListener('click', LogInToSignUp);
 toLogIn.addEventListener('click', SignUpToLogIn);
 clLogIN.addEventListener('click', hiddenLogIn);
 clSignUp.addEventListener('click', hiddenSignUp);
+
+

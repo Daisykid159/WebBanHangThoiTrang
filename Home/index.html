@@ -7,7 +7,8 @@
     <title>Document</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./grid.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/contailer.css">
 </head>
 <body>
     <div id="root">
@@ -20,7 +21,7 @@
                         </a>
                     </div>
         
-                    <div class="header_menu">
+                    <div class="header_menu l-7 m-7 c-0">
                         <ul class="height header_menu-list flex center">
                             <li class="height header_product pst">
                                 <div class="header_product_wrap">
@@ -354,30 +355,77 @@
         </div>
 
         <div class="navba pst">
-            <div class="navba_a c-12 m-12 l-12 none">
-                <img class="c-12 l-12 m-12" src="./IMG/anh1.jpg" alt="">
-            </div>
-
-            <div class="navba_b c-12 m-12 l-12">
-                <img class="c-12 l-12 m-12" src="./IMG/anh2.jpg" alt="">
-            </div>
-
-            <div class="navba_c c-12 m-12 l-12 none">
-                <img class="c-12 l-12 m-12" src="./IMG/anh3.jpg" alt="">
+            <div class="navba_a c-12 m-12 l-12">
+                <img class="c-12 l-12 m-12 img_navba" src="./IMG/anh1.jpg" alt="">
             </div>
 
             <div class="next">
                 <div class="next_icon next_left">
-                    <i class='next_icon-size bx bx-chevron-left'></i>
+                    <i class='next_icon-size nextLeft bx bx-chevron-left'></i>
                 </div>
 
                 <div class="next_icon next_right">
-                    <i class='next_icon-size bx bx-chevron-right'></i>
+                    <i class='next_icon-size nextRight bx bx-chevron-right'></i>
                 </div>
             </div>
         </div>
 
+        <div class="contailer pst">
+            <h2 class="contailer_text">DANH MỤC NỔI BẬT</h2>
+            <ul class="contailer_list flex">
+                <li class="contailer_item l-3">
+                    <img class="contailer_item-img" src="./IMG/dsnb1.jpg" alt="" srcset="">
+                    <p class="contailer_item-text">Bộ SUIT</p>
+                </li>
+                <li class="contailer_item l-3">
+                    <img class="contailer_item-img" src="./IMG/dsnb1.jpg" alt="" srcset="">
+                    <p class="contailer_item-text">Bộ SUIT</p>
+                </li>
+                <li class="contailer_item l-3">
+                    <img class="contailer_item-img" src="./IMG/dsnb1.jpg" alt="" srcset="">
+                    <p class="contailer_item-text">Bộ SUIT</p>
+                </li>
+                <li class="contailer_item l-3"> 
+                    <img class="contailer_item-img" src="./IMG/dsnb1.jpg" alt="" srcset="">
+                    <p class="contailer_item-text">Bộ SUIT</p>
+                </li>
+                <li class="contailer_item l-3">
+                    <img class="contailer_item-img" src="./IMG/dsnb1.jpg" alt="" srcset="">
+                    <p class="contailer_item-text">Bộ SUIT</p>
+                </li>
+                <li class="contailer_item l-3">
+                    <img class="contailer_item-img" src="./IMG/dsnb1.jpg" alt="" srcset="">
+                    <p class="contailer_item-text">Bộ SUIT</p>
+                </li>
+                <li class="contailer_item l-3">
+                    <img class="contailer_item-img" src="./IMG/dsnb1.jpg" alt="" srcset="">
+                    <p class="contailer_item-text">Bộ SUIT</p>
+                </li>
+                <li class="contailer_item l-3">
+                    <img class="contailer_item-img" src="./IMG/dsnb1.jpg" alt="" srcset="">
+                    <p class="contailer_item-text">Bộ SUIT</p>
+                </li>
+            </ul>
+
+            <div class="next">
+                <div class="next_icon next_left">
+                    <i class='next_icon-size white nextLeftct bx bx-chevron-left'></i>
+                </div>
+
+                <div class="next_icon next_right">
+                    <i class='next_icon-size white nextRightct bx bx-chevron-right'></i>
+            </div>
+
+            <div class="contailer_kt flex">
+                <div class="contailer_kt1"></div>
+                <div class="contailer_kt2"></div>
+                <div class="contailer_kt1"></div>
+            </div>
+            
+        </div>
+
         <footer class="footer"></footer>
     </div>
-    <script src="./main.js"></script>
+    <script src="./javascript/logInOut.js"></script>
+    <script src="./javascript/doiImgNavba.js"></script>
 </body>
