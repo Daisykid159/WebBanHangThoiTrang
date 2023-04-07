@@ -31,10 +31,10 @@ var datas = [
     }
 ]
 
-const contailerList = document.querySelector('.contailer_list0');
+const contailerList1 = document.querySelector('.contailer_list1');
 
 datas.forEach((data) => {
-    const liItem = contailerList.appendChild(document.createElement('li'));
+    const liItem = contailerList1.appendChild(document.createElement('li'));
     liItem.classList.add('contailer_item', 'l-3');
     const imgLi = liItem.appendChild(document.createElement('img'));
     imgLi.classList.add('contailer_item-img');
